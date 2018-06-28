@@ -1,0 +1,40 @@
+{
+  "name": "nano-map",
+  "version": "1.0.0",
+  "description": "Map of Nano Nodes",
+  "productName": "Nano Map",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Nano Map <40605318+nanomw@users.noreply.github.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "randomcolor": "^0.5.3",
+    "vue-i18n": "^8.0.0",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.5",
+    "eslint": "5.0.1",
+    "eslint-config-standard": "11.0.0",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-loader": "2.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.8.0",
+    "eslint-plugin-standard": "3.1.0",
+    "eslint-plugin-vue": "4.5.0",
+    "quasar-cli": "^0.16.4"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
